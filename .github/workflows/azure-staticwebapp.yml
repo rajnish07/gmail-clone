@@ -14,10 +14,10 @@ name: Deploy web app to Azure Static Web Apps
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
     types: [opened, synchronize, reopened, closed]
-    branches: [ "main" ]
+    branches: ["main"]
 
 # Environment variables available to all jobs and steps in this workflow
 env:
@@ -37,6 +37,7 @@ jobs:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
+    skip_deploy_on_missing_secrets: true
     steps:
       - uses: actions/checkout@v3
         with:
