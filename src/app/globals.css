@@ -9,4 +9,5 @@ header input::placeholder{
 
 body {
   background-image: url('../../public/background1.jpeg');
+  transition: all 0.3s;
 }
