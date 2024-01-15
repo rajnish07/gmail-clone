@@ -1,6 +1,6 @@
 "use client";
 import Header from "./components/Header";
-import React, { useRef, useState } from "react";
+import React, { MouseEvent, useRef, useState } from "react";
 import Sidebar from "./components/Sidebar";
 import MailContainer from "./components/MailContainer";
 import Themes from "./components/Themes";
