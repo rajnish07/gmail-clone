@@ -1,4 +1,4 @@
-import React from "react";
+import React, { MouseEvent } from "react";
 import { GoPencil } from "react-icons/go";
 
 type Props = {

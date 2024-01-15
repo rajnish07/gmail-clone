@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { MouseEvent, useState } from "react";
 import { CiStar } from "react-icons/ci";
 
 type Props = {

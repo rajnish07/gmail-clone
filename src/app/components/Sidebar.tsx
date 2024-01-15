@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { MouseEvent, useState } from "react";
 import SideItem from "./SideItem";
 import { sideItems } from "@/utils/constants";
 import Compose from "./Compose";

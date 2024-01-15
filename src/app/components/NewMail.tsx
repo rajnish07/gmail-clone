@@ -1,4 +1,4 @@
-import React from "react";
+import React, { MouseEvent } from "react";
 import { IoClose } from "react-icons/io5";
 import { LuMaximize2 } from "react-icons/lu";
 import { RiDeleteBin6Line } from "react-icons/ri";
